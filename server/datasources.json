@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "db.json"
+  },
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "lb_todo_api",
+    "password": "",
+    "name": "postgres",
+    "user": "",
+    "connector": "postgresql"
+  }
+}

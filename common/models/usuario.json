@@ -1,0 +1,30 @@
+{
+  "name": "Usuario",
+  "plural": "Usuarios",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tarefas": {
+      "type": "hasMany",
+      "model": "Tarefa",
+      "foreignKey": "usuarioId",
+      "options": {}
+    }
+  },
+  "acls": [{
+    "principalType": "ROLE",
+    "principalId": "$owner",
+    "permission": "ALLOW",
+    "property": "*"
+  }],
+  "methods": {}
+}

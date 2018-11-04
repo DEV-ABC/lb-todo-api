@@ -1,0 +1,40 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Usuario": 3,
+    "Tarefa": 14
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {
+      "aq76zXSrX2cEZRrf4XRYnpU4ebYb0xkP2KHUHw4sYVQPJXnqoNAbz3JiagFmIdFi": "{\"id\":\"aq76zXSrX2cEZRrf4XRYnpU4ebYb0xkP2KHUHw4sYVQPJXnqoNAbz3JiagFmIdFi\",\"ttl\":1209600,\"created\":\"2018-11-04T22:13:18.119Z\",\"userId\":1}",
+      "0kZC1I06wzSxlztrpa7QqTFfQBqs5uP3Js5QAzQzzfK22sPjwZzIEklihsZoDkyu": "{\"id\":\"0kZC1I06wzSxlztrpa7QqTFfQBqs5uP3Js5QAzQzzfK22sPjwZzIEklihsZoDkyu\",\"ttl\":1209600,\"created\":\"2018-11-04T22:26:50.795Z\",\"userId\":2}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Usuario": {
+      "1": "{\"password\":\"$2a$10$ekj/BHPmtg5Qjh8clypuD.qcZ6/2va5pk34.M9UiF84nDBkJXtn3S\",\"email\":\"luke@jediorder.com\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$BQzPg5hKoQ1i.1fCje7Ui.m4qupo8iz5JecL/CCfXNPRHzcYQZDCO\",\"email\":\"big@mac.com\",\"id\":2}"
+    },
+    "Tarefa": {
+      "1": "{\"nome\":\"Assault on Yavin Four\",\"usuarioId\":1,\"id\":1}",
+      "2": "{\"nome\":\"Escape from Thyferra\",\"usuarioId\":1,\"id\":2}",
+      "3": "{\"nome\":\"Destroy the Liquidator\",\"usuarioId\":1,\"id\":3}",
+      "4": "{\"nome\":\"The Hunt for Han Solo\",\"usuarioId\":1,\"id\":4}",
+      "5": "{\"nome\":\"The Search for Grubba the Hutt\",\"usuarioId\":1,\"id\":5}",
+      "6": "{\"nome\":\"Voyage to the Underworld\",\"usuarioId\":1,\"id\":6}",
+      "7": "{\"nome\":\"Dois hamburgueres\",\"usuarioId\":2,\"id\":7}",
+      "8": "{\"nome\":\"Alface\",\"usuarioId\":2,\"id\":8}",
+      "9": "{\"nome\":\"Queijo\",\"usuarioId\":2,\"id\":9}",
+      "10": "{\"nome\":\"Molho especial\",\"usuarioId\":2,\"id\":10}",
+      "11": "{\"nome\":\"Cebola\",\"usuarioId\":2,\"id\":11}",
+      "12": "{\"nome\":\"Picles\",\"usuarioId\":2,\"id\":12}",
+      "13": "{\"nome\":\"E um pão com gergelim\",\"usuarioId\":2,\"id\":13}"
+    }
+  }
+}
